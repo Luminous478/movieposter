@@ -12,16 +12,7 @@ h1{
     color: azure;
 }
 
-div {
-   
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 20px; 
-        max-width: auto; 
-        margin: 0 auto; 
-        
-}
+
 
 img{
 
@@ -39,20 +30,23 @@ box-shadow: 0 15px 30px rgba(0,0,0,1)
 }
 
 .movieCard{
-    display: flex;
-    flex-direction: column;
-    width:275px;
+   width: 275px;
+   height: 325px;
+   padding: 50px;
    
 }
 
-body{
-    background-color: rgb(37, 37, 37);
+.cardContainer{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 150px;
+    margin-right: 60px;
 }
 
 
-.movieCardLower{
-display: flex;
-margin-top: 30px;
-width: 275px;
 
+    
+body{
+    background-color: rgb(37, 37, 37);
 }
